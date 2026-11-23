@@ -1,0 +1,13 @@
+**/private_backup/
+**/config.json
+**/.zaxira_env/
+**/projects/
+**/state/
+**/exports/
+**/__pycache__/
+*.jks
+*.log
+.env
+*.conf
+*.env
+.git
