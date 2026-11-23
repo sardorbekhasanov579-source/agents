@@ -1,0 +1,12 @@
+V1.2.1 — UTF-8 / SQLite tuzatishi
+
+1. Botning kompyuterdagi oynasini Ctrl+C bilan to‘xtating, yopilishini kuting.
+2. ZIPdagi Agentlar_Telegram_v1 ichidagi fayllarni eski shu papka ichiga ko‘chiring, bir xil nomlilarini almashtiring.
+3. config.json, state, projects, exports ni O‘CHIRMANG.
+4. 2_ISHGA_TUSHIRISH.bat ni qayta oching. Qayta sozlash kerak emas.
+5. Telegramga yuboring:
+/resume job_20261117_113816_dd63f4
+
+Tuzatish: yakuniy AI ko‘rigida SQLite, rasm, PDF va boshqa ikkilik fayllar matn sifatida dekodlanmaydi. Ularning borligi va hajmi qayd etiladi; matn sifatida tekshirilmaganligi ko‘rsatiladi. Fayl baytlari va arxivga kiritilishi saqlanadi. Noto‘g‘ri kodlangan manba kodi jim e’tiborsiz qoldirilmaydi.
+49 offline test PASS, jumladan haqiqiy SQLite bilan yakuniy ko‘rik va ZIPdagi baytlar saqlanishi.
+Foydalanuvchining aynan shu loyihasi hali bu muhitga yuklanmagan; jonli Windowsdagi natijani /resume bilan tekshirish kerak.

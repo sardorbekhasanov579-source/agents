@@ -1,0 +1,14 @@
+{
+  "telegram_token": "BOTFATHER_TOKEN",
+  "gemini_api_key": "GOOGLE_AI_STUDIO_KEY",
+  "model": "SOZLASH_DASTURIDAGI_MODEL_NOMI",
+  "owner_id": 123456789,
+  "sources": {},
+  "max_steps": 24,
+  "allow_commands": false,
+  "allow_local_build": false,
+  "keep_awake": false,
+  "gemini_min_interval": 15,
+  "phone_enabled": false,
+  "pc_folders": {}
+}

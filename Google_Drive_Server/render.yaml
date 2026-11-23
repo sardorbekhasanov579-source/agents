@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: shaxsiy-zaxira
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: VAULT_MASTER_KEY
+        generateValue: true
+      - key: WEBHOOK_SECRET
+        generateValue: true
+      - key: TELEGRAM_OWNER_ID
+        sync: false
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TZ
+        value: Asia/Tashkent
+      - key: ZAXIRA_REMOTE_CONFIG
+        sync: false
